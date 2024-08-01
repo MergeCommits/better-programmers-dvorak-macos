@@ -1,19 +1,13 @@
-## Motivation
-I type everyday of the week.  For five of those seven days, i type for about 6-7 hours.
-It makes sense, removing my will for complacency, that i switch to a more efficient keyboard, if there is one.
-I present to you, Real Programmers Dvorak.
+# Better Programmers Dvorak
+Just a port of [ThePrimeagen's version of Programmer's Dvorak](https://github.com/ThePrimeagen/keyboards).
 
-## Why Dvorak?
-Dvorak comes on evey major OS.
+The macOS version of the layout included on that repo is unsupported and also bad.
 
-## Why change programmers Dvorak?
-The major problems around PD is that it has a poorly thought out symbol layout.
+Main changes here include:
 
-* (, ), {, }, [, ]
-** The opening and closing symbols are oddly placed.  It makes so much more sense that finger used to open is the same finger on the closing hand.
+- Added Caps Lock layer, which restores the numbers to the numbers row.
+- Holding down CMD also restores numbers for keyboard shortcuts.
+    - This layer chains to other modifiers.
+- Restored the option key symbols layer, including the shift/caps lock layers.
 
-## Preview
-Base layer:
-![base layer](./rpd.PNG)
-Shift layer:
-![shift layer](./rpd-shift.PNG)
+This layout might still be missing numpad stuff. There's also missing parity with the default macOS keyboard layouts over how shifting the caps lock layer works.
